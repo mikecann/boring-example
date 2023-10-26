@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "jsx": "react",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "tsBuildInfoFile": ".typescript/.tsbuildinfo",
+    "experimentalDecorators": true,
+    "paths": {}
+  },
+  "include": ["src/**/*"],
+  "references": []
+}

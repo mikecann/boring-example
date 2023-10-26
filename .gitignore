@@ -1,0 +1,84 @@
+# compiled output
+dist
+tmp
+built
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+local.config.json
+.local.env
+.env
+
+# Some misc debug files
+/*-webpack-output.json
+
+firebase-admin-service-account-key.json
+
+/scripts/runAgainstProd.ps1
+/scripts/runAgainstStaging.ps1
+*.dump
+
+/scripts/*.ps1
+
+*.tsbuildinfo
+
+storybook-static
+
+android.keystore
+
+**/bubblewrap/app/build
+**/bubblewrap/.gradle
+app-release
+
+*.heapsnapshot
+
+/trace
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+android/release.jks
+android/release.jks.base64
+
+.typescript
+
+*.env
+
+.turbo
+.*.env

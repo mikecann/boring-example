@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "strict": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "disableSourceOfProjectReferenceRedirect": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "noEmitHelpers": true,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"],
+    "tsBuildInfoFile": ".typescript/.tsbuildinfo",
+    "paths": {
+      "@project/my-lib": ["./libs/my-lib/src/index.ts"]
+    }
+  },
+  "references": [{ "path": "./libs/my-lib" }],
+  "include": [],
+  "exclude": ["**/node_modules", "**/dist", "*.d.ts", "**/tmp", "**/.github"]
+}
